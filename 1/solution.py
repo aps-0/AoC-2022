@@ -1,5 +1,5 @@
 with open("input.txt", "r") as input_file:
-	input = input_file.read().strip()
+	input = input_file.read().rstrip()
 
 data = []
 for elf_calories in input.split("\n\n"):
